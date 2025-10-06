@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*
+Comentário com várias linhas
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: #5f0f40;
+}
+header h1 {
+  color: #f8f9fa;
+  font-family: "Gravitas One", serif;
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px;
+}
+
+main {
+  background-color: rgb(50, 0, 30);
+}
+main .banner {
+  background-image: url("https://img.freepik.com/vetores-gratis/banner-de-cinema-online-com-claquete-aberta-e-tira-de-filme_1419-2242.jpg");
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card img {
+  width: 20vw;
+}
+.card h2 {
+  font-weight: 400;
+}
+
+#btn1 {
+  background-color: purple;
+}
+
+#btn2 {
+  background-color: burlywood;
+}/*# sourceMappingURL=style.css.map */

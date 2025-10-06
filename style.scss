@@ -1,0 +1,79 @@
+// seletor{propriedade: valor;}
+
+/*
+Comentário com várias linhas
+*/
+
+// * é o seletor global
+*{
+    margin: 0; // Espaçamento externo
+    padding: 0; // Espaçamento interno
+    box-sizing: border-box; // Tamanho da caixa
+}
+
+body{
+    // font-family - define a fonte que será usada no texto
+    font-family: "Montserrat", sans-serif;
+}
+
+// cores - nome da cor (ingles), rgb e hexadecimal
+
+// rgb()
+// os valores do rgb vão de 0 a 255
+
+header{
+    background-color: #5f0f40; // Cor hexadecimal - Um sistema de numeração iniciado com #
+
+    // aninhamento 
+    h1{
+        color: #f8f9fa;
+        font-family: "Gravitas One", serif;
+        font-size: 3rem;
+        // font-size - tamanho da fonte
+    }
+}
+
+a{
+    text-decoration: none; // retirei o sublinhado da tag a
+    color: aliceblue; // Cor - Nome em inglês
+    padding: 5px; // px = tamanho fixo, não ajustável
+}
+
+main{
+    background-color: rgb(50,0,30); // Cor RGB - Os valores do rgb vão de 0 a 255
+
+    .banner{
+        background-image: url("https://img.freepik.com/vetores-gratis/banner-de-cinema-online-com-claquete-aberta-e-tira-de-filme_1419-2242.jpg");
+       height: 40vh; // Define a altura
+       background-size: cover; // Define o tamanho da imagem do fundo
+       background-position: center; // Alinhamento da imagem
+       background-repeat: no-repeat; // Impede que a imagem se repita
+    }
+}
+
+// class  é um seletor que podemos repetir/reutilizar
+.card {
+
+    img {
+        width: 20vw; // Define a largura
+    }
+
+    // aninhamento
+    h2 {
+        font-weight: 400; // Define o peso da fonte
+    }
+}
+
+// medida relativa
+// vw - viewport (janela de exibição)
+// vw - largura da tela 
+
+// porcentagem % - relativo ao elemento pai
+
+#btn1{
+    background-color: purple;
+}
+
+#btn2 {
+    background-color: burlywood;
+}
